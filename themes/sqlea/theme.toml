@@ -1,0 +1,12 @@
+name = "Sqlea"
+license = ""
+licenselink = "https://github.com/sqlea/website/blob/master/LICENSE"
+description = "Theme for SQLEA"
+homepage = "https://sqlea.org.uk/"
+tags = []
+features = []
+min_version = "0.41"
+
+[author]
+  name = "SQLEA"
+  homepage = "https://sqlea.org.uk/"

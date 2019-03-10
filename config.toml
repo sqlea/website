@@ -1,3 +1,10 @@
 baseURL = "https://sqlea.org.uk/"
 languageCode = "en-gb"
+theme = "sqlea"
 title = "East Anglia SQL Server User Group"
+
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
+
+[params]
+  description = "Official PASS Chapter for Cambridgeshire, Suffolk and Norfolk"
