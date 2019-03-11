@@ -1,0 +1,12 @@
+.navbar-light  {
+    border-bottom: 1px solid #ededed;
+    border-top: 1px solid #ededed;
+}
+
+h2.site-description {
+    font-weight: 400;
+    font-size: 13px;
+    font-size: .928571429rem;
+    line-height: 1.846153846;
+    color: #757575;
+}
