@@ -10,3 +10,17 @@ h2.site-description {
     line-height: 1.846153846;
     color: #757575;
 }
+
+
+h1.entry-title {
+    padding-top: 15px;
+    font-size: 1.571428571rem;
+}
+
+p.entry-content {
+    line-height: 1.714285714;
+}
+
+img.logo {
+    padding: 25px;
+}

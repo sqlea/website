@@ -1,4 +1,4 @@
-baseURL = "https://sqlea.org.uk/"
+baseURL = "http://localhost:1313/"
 languageCode = "en-gb"
 theme = "sqlea"
 title = "East Anglia SQL Server User Group"

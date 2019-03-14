@@ -3,9 +3,22 @@
     {{- partial "head.html" . -}}
     <body>
         {{- partial "header.html" . -}}
-        <div id="content">
+        <div class="row" id="content">
+    		<div class="col-9">
+
         {{- block "main" . }}{{- end }}
+
+		</div>
+    		<div class="col-3">
+			<img src="/img/sqlea.png" class="logo" alt="SQLEA logo" title="SQLEA logo" width="200px" height="200px" />
+			<br/><a href="http://eepurl.com/bPksNr" target="_blank"><img src="/img/emailjoin.jpg" class="logo" alt="Join mailing list" title="Join mailing list" width="150px" height="150px" /></a>
+			<br/>
+			<p><strong>Sponsors</strong></p>
+			<a href="https://sqlcloud.co.uk/" target="_blank"><img src="/img/sponsors/sqlcloud.png" class="sponsor" alt="Sponsor: SQLCloud" title="Sponsor: SQLCloud" width="200px" height="76px" /></a>
+		</div>
         </div>
+  </div>
+
         {{- partial "footer.html" . -}}
     </body>
 </html>
