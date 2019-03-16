@@ -8,3 +8,4 @@ The East Anglia SQL Server User Group (formally SQLCambs) is a not for profit or
 We are an official [SQLPASS](https://www.pass.org "SQL Pass") UK Chapter and our aim is to promote, educate and learn about this fantastic Microsoft product and technologies surrounding it (top to bottom) from some of the greatest minds in the business. Most importantly it is about COMMUNITY and helping one another achieve our goals and aims in our technical and social lives. We welcome first time speakers so [please get in touch](/submit "Get in touch") if you are interested!
 
 Read our [Code of Conduct](/code-of-conduct "Code of Conduct").
+

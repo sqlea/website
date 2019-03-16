@@ -1,0 +1,20 @@
+{{ define "main" }}
+
+
+<div id="content" role="main">
+    <article>
+        <header class="entry-header">
+            <h1 class="entry-title">{{ .Title }}</h1>
+        </header>
+        <div class="entry-content">
+	{{ if .Params.twitter }}<p><strong>Twitter:</strong> <a href="https://twitter.com/{{ .Params.twitter }}" title="Twitter: {{ .Params.twitter }}" target="_blank">@{{ .Params.twitter }}</a></p>{{end}}
+	{{ if .Params.github }}<p><strong>GitHub:</strong> <a href="https://github.com/{{ .Params.github }}" title="GitHub: {{ .Params.github }}" target="_blank">@{{ .Params.github }}</a></p>{{end}}
+	{{ if .Params.website }}<p><strong>Website:</strong> <a href="{{ .Params.website }}" title="Website: {{ .Title }}" target="_blank">{{ .Params.website }}</a></p>{{end}}
+
+	{{ .Content }} 
+
+        </div>
+    </article>
+</div>
+
+{{ end }}
