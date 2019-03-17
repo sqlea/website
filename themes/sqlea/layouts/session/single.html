@@ -1,0 +1,39 @@
+{{ define "main" }}
+
+
+<div id="content" role="main">
+    <article>
+        <header class="entry-header">
+            <h1 class="entry-title">{{ .Title }}</h1>
+        </header>
+        <div class="entry-content">
+{{ if .Params.eventbrite }}
+	<hr>
+	<a href="https://www.eventbrite.co.uk/e/{{ .Params.eventbrite }}" Title="Register" target="_blank"><img src="{{ $.Site.BaseURL }}/img/eventbrite.png" alt="Register" title="Register" /></a>
+{{ end }}
+	<hr>
+	{{ .Content }}
+	<hr>
+
+{{ if .Params.eventbrite }}
+	<a href="https://www.eventbrite.co.uk/e/{{ .Params.eventbrite }}" Title="Register" target="_blank"><img src="{{ $.Site.BaseURL }}/img/eventbrite.png" alt="Register" title="Register" /></a>
+	<hr>
+{{ end }}
+{{ if .Params.where }}
+	<p><strong>Where:</strong> <a href="{{ $.Site.BaseURL }}venues/{{ lower .Params.where }}/" Title="Venue: {{ .Params.where }}">{{ .Params.where }}</a></p>
+	<hr>
+{{ end }}
+{{ if .Params.speaker }}
+<p><strong>Speaker:</strong> 
+{{ range split .Params.speaker " | " }}
+	<a href="{{ $.Site.BaseURL }}speakers/{{ replace (lower .) " " "-" }}/" Title="Speaker: {{ . }}">{{ . }}</a> 
+{{ end }}
+	</p>
+	<hr>
+{{ end }}
+
+        </div>
+    </article>
+</div>
+
+{{ end }}

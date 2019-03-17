@@ -2,9 +2,16 @@ baseURL = "http://localhost:1313/"
 languageCode = "en-gb"
 theme = "sqlea"
 title = "East Anglia SQL Server User Group"
+enableGitInfo = false
+Paginate = 3
 
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
 
 [params]
   description = "Official PASS Chapter for Cambridgeshire, Suffolk and Norfolk"
+  copyright = ""
+
+[params.social]
+  github = "sqlea"
+  twitter = "sqlea"

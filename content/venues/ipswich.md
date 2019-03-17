@@ -1,5 +1,17 @@
 ---
 title: "Ipswich | Venue"
-date: 2019-03-10T23:16:00Z
-draft: false
 ---
+
+Room W415
+
+University Campus Suffolk (UCS) Waterfront Building
+
+Long Street
+
+Ipswich
+
+Suffolk
+
+IP3 8AH 
+
+United Kingdom
